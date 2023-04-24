@@ -40,3 +40,5 @@ ${features}
 ${tests}
 
 `;
+
+module.exports = { solution };
