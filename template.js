@@ -36,7 +36,6 @@ ${data.usage}
 
 ![screenshot](./assets/images/screenshot.png)
 ![${data.imgAltText}](${data.deployedURL} "${data.imgAltText}")
-![video demo](./assets/images/...)
 
 ## Contributing
 
