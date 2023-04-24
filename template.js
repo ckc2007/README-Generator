@@ -44,7 +44,6 @@ ${data.tests}
 ## GitHub Profile
 
 https://github.com/${data.personalGitHubUserName}
-
 `;
 }
 
