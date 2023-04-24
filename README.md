@@ -23,7 +23,7 @@ To install: please clone the repo, then install the npm, and run from the comman
 
 ## Usage
 
-When you are prompted, please enter the details you wish to include in the README. When you hit enter, Then you will be taken to the next prompt. WHen all prompts are complete you will see a success message and the README document will be created!
+When you are prompted, please enter the details you wish to include in the README. When you hit enter, Then you will be taken to the next prompt. When all prompts are complete you will see a success message and the README document will be created!
 
 ## Screenshot / Video
 
