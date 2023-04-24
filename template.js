@@ -6,7 +6,10 @@ ${data.tagline}.
 
 ## Description
 
-${data.what}. ${data.why}. ${data.how}. ${data.learned}.
+- ${data.what}. 
+- ${data.why}. 
+- ${data.how}. 
+- ${data.learned}.
 
 ## Table Of Contents
 
@@ -21,6 +24,7 @@ ${data.installation}
 ${data.usage}
 
 ## Screenshot
+
 ![screenshot](${data.deployedURL} "${data.imgAltText}")
 
 ## Credits
