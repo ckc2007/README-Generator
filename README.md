@@ -6,7 +6,7 @@ A command-line professional README generator application.
 
 ## Description
 
-- This application allows the user to quickly generate a professional readme document that is pre-formatted based on prompts. 
+- This application allows the user to quickly generate a professional README document that is pre-formatted based on prompts. 
 - Because README documents should contain certain basic information, this application will ensure the user inputs all required details into their README. 
 - The process of using pre formatted questions will save time and allow the user to quickly generate content while keeping their information organized. 
 - It is super fun to use the command line to do this! It makes the process of creating a README so much faster and user-friendly!
