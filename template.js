@@ -1,53 +1,49 @@
-let solution = `
-# ${title}
+function generateTemplate(data) {
+  return `
+# ${data.title}
 
-${tagline}.
+${data.tagline}.
 
 ## Description
 
-${what}. ${why}. ${how}. ${learned}.
+${data.what}. ${data.why}. ${data.how}. ${data.learned}.
 
-${tableOfContents}
+${data.tableOfContents.join("\n")}
 
 ## Installation
 
-${installation}
+${data.installation}
 
 ## Usage
 
-${usage}
+${data.usage}
 
-\```md
-![${imgAltText}](assets/images/screenshot.png)
-\```
-
-Link to the deployed application:
-\```
-${deployedURL}
-\```
+## Screenshot
+![screenshot](${data.deployedURL} "${data.imgAltText}")
 
 ## Credits
 
-${collaboratorName}: ${collaboratorGitHubURL}
-${thirdPartyAssets}
-${tutorialLink}
+${data.collaboratorName}: ${data.collaboratorGitHubURL}
+${data.thirdPartyAssets}
+${data.tutorialLink}
 
 ## License
 
-${license}
+${data.license}
 
 ## Features
 
-${features}
+${data.features}
 
 ## Tests
 
-${tests}
+${data.tests}
 
 ## GitHub Profile
 
-https://github.com/${personalGitHubUserName}
+https://github.com/${data.personalGitHubUserName}
 
 `;
+}
 
-module.exports = { solution };
+module.exports = generateTemplate;
