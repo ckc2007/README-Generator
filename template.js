@@ -1,4 +1,12 @@
 function generateTemplate(data) {
+  let badgeURL = "";
+  if (data.license !== "none") {
+    badgeURL = `![${
+      data.license
+    } license](https://img.shields.io/badge/license-${encodeURIComponent(
+      data.license
+    )}-blue.svg)`;
+  }
   return `
 # ${data.title}
 
