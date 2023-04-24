@@ -25,6 +25,7 @@ ${data.usage}
 
 ## Screenshot
 
+![screenshot](./assets/images/screenshot.png)
 ![screenshot](${data.deployedURL} "${data.imgAltText}")
 
 ## Credits
