@@ -25,13 +25,18 @@ ${data.usage}
 
 ## Credits
 
-${data.collaboratorName}: ${data.collaboratorGitHubURL}
+This project was built in collaboration with ${data.collaboratorName},
+whose GitHub profile can be found [here](${data.collaboratorGitHubURL}).
+
+Third party assets used in this project include:
 ${data.thirdPartyAssets}
+
+Tutorials used in this project include:
 ${data.tutorialLink}
 
 ## License
 
-${data.license}
+This project is licensed under the ${data.license} license.
 
 ## Features
 
@@ -41,9 +46,10 @@ ${data.features}
 
 ${data.tests}
 
-## GitHub Profile
+## GitHub Profile / Questions
 
-https://github.com/${data.personalGitHubUserName}
+Please contact the owner of this repository at [${data.personalGitHubUserName}](
+https://github.com/${data.personalGitHubUserName}).
 `;
 }
 
