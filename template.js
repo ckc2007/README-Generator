@@ -23,12 +23,13 @@ ${data.installation}
 
 ${data.usage}
 
-## Screenshot
+## Screenshot / Video
 
 ![screenshot](./assets/images/screenshot.png)
 ![${data.imgAltText}](${data.deployedURL} "${data.imgAltText}")
+![video demo](./assets/images/...)
 
-## Credits
+## Contributing
 
 This project was built in collaboration with ${data.collaboratorName},
 whose GitHub profile can be found [here](${data.collaboratorGitHubURL}).
@@ -51,9 +52,14 @@ ${data.features}
 
 ${data.tests}
 
-## GitHub Profile / Questions
+## Questions
 
-Please contact the owner of this repository at [${data.personalGitHubUserName}](
+Please direct questions to the owner of this repository at ${
+    data.personalGitHubUserName
+  }@gmail.com
+
+Owner GitHub page:
+[${data.personalGitHubUserName}](
 https://github.com/${data.personalGitHubUserName}).
 `;
 }
