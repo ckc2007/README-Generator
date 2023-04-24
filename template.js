@@ -8,6 +8,8 @@ ${data.tagline}.
 
 ${data.what}. ${data.why}. ${data.how}. ${data.learned}.
 
+## Table Of Contents
+
 ${data.tableOfContents.join("\n")}
 
 ## Installation
