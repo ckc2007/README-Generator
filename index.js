@@ -129,7 +129,7 @@ function init() {
   inquirer.prompt(questions).then((data) => {
     const filledTemplate = generateTemplate(data);
 
-    const fileName = `README.md`;
+    const fileName = `example/README.md`;
     writeToFile(fileName, filledTemplate, (err) =>
       err ? console.error(err) : console.log("Success!")
     );
