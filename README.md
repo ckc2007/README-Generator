@@ -9,7 +9,7 @@ A command-line professional README generator application.
 - This application allows the user to quickly generate a professional readme document that is pre-formatted based on prompts. 
 - Because README documents should contain certain basic information, this application will ensure the user inputs all required details into their README. 
 - The process of using pre formatted questions will save time and allow the user to quickly generate content while keeping their information organized. 
-- It is super fun to use the command line to do this! It makes the process of creating a README so much faster and user-friendly!.
+- It is super fun to use the command line to do this! It makes the process of creating a README so much faster and user-friendly!
 
 ## Table Of Contents
 
@@ -23,7 +23,7 @@ To install: please clone the repo, then install the npm, and run from the comman
 
 ## Usage
 
-When you are prompted, please enter the details you wish to include in the README. When you hit enter, Then you will be taken to the next  prompt. WHen all promts are compltete you w will see a success message and the README document will be created.
+When you are prompted, please enter the details you wish to include in the README. When you hit enter, Then you will be taken to the next prompt. WHen all prompts are complete you will see a success message and the README document will be created!
 
 ## Screenshot / Video
 
