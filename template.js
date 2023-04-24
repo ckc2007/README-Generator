@@ -44,6 +44,10 @@ ${features}
 
 ${tests}
 
+## GitHub Profile
+
+https://github.com/${personalGitHubUserName}
+
 `;
 
 module.exports = { solution };

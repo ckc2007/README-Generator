@@ -50,19 +50,70 @@ const questions = [
     ],
   },
   {
-      type: "input",
-      name: "installation",
-      message: "please describe the instillation instructions:",
+    type: "input",
+    name: "installation",
+    message: "please describe the instillation instructions:",
   },
   {
-      type: "input",
-      name: "usage",
-      message: "please provide user instructions for using this product:",
+    type: "input",
+    name: "usage",
+    message: "please provide user instructions for using this product:",
   },
   {
-      type: "input",
-      name: "imgAltText",
-      message: "please enter the alt text for the screenshot of the deployed application:",
+    type: "input",
+    name: "imgAltText",
+    message:
+      "please enter the alt text for the screenshot of the deployed application:",
+  },
+  {
+    type: "input",
+    name: "deployedURL",
+    message: "please enter the full url to your deployed application:",
+  },
+  {
+    type: "input",
+    name: "collaboratorName",
+    message: "please enter the names of any collaborators:",
+  },
+  {
+    type: "input",
+    name: "collaboratorGitHubURL",
+    message: "please enter the GitHub URL links of your collaborators:",
+  },
+  {
+    type: "input",
+    name: "thirdPartyAssets",
+    message:
+      "please enter the links to any third party assets used in this project:",
+  },
+  {
+    type: "input",
+    name: "tutorialLink",
+    message:
+      "please enter any links to tutorials used or required by this application:",
+  },
+  {
+    type: "list",
+    message: "please select the license for this application:",
+    name: "license",
+    choices: ["MIT", "Apache 2.0", "GPLv3", "none"],
+  },
+  {
+    type: "input",
+    name: "features",
+    message:
+      "please list any features of this project you wish to include here:",
+  },
+  {
+    type: "input",
+    name: "tests",
+    message:
+      "please include any tests for this application here, along with instructions on how to use the tests:",
+  },
+  {
+    type: "input",
+    name: "personalGitHubUserName",
+    message: "please enter your gitub user name:",
   },
 ];
 
