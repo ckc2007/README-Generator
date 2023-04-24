@@ -9,6 +9,7 @@ function generateTemplate(data) {
   }
   return `
 # ${data.title}
+${badgeURL}
 
 ${data.tagline}.
 
