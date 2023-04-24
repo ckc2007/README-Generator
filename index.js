@@ -138,3 +138,7 @@ function init() {
 
 // Function call to initialize app
 init();
+
+// future features:
+// I want to be able to enter multiple collaborators and their github user names/links, and then have those populate a list in the README - function?
+// how do I get the ``` offset ``` in the readme? do I need to escape like this: \`\`\` ?
