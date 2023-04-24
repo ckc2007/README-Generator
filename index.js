@@ -126,9 +126,32 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-  inquirer.prompt(data).then((data) => {
+  inquirer.prompt(questions).then((data) => {
+    const filledTemplate = template.solution
+      .replace("${title}", data.title)
+      .replace("${tagline}", data.tagline)
+      .replace("${what}", data.what)
+      .replace("${why}", data.why)
+      .replace("${how}", data.how)
+      .replace("${learned}", data.learned)
+      .replace("${tableOfContents}", data.tableOfContents.join("\n"))
+      .replace("${installation}", data.installation)
+      .replace("${usage}", data.usage)
+      .replace("${imgAltText}", data.imgAltText)
+      .replace("${deployedURL}", data.deployedURL)
+      .replace("${collaboratorName}", data.collaboratorName)
+      .replace("${collaboratorGitHubURL}", data.collaboratorGitHubURL)
+      .replace("${thirdPartyAssets}", data.thirdPartyAssets)
+      .replace("${tutorialLink}", data.tutorialLink)
+      .replace("${license}", data.license)
+      .replace("${features}", data.features)
+      .replace("${tests}", data.tests)
+      .replace("${personalGitHubUserName}", data.personalGitHubUserName);
+
     const fileName = `README.md`;
-    writeToFile(fileName, data);
+    writeToFile(fileName, filledTemplate, (err) =>
+      err ? console.error(err) : console.log("Success!")
+    );
   });
 }
 
