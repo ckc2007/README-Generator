@@ -21,6 +21,11 @@ ${usage}
 ![${imgAltText}](assets/images/screenshot.png)
 \```
 
+Link to the deployed application:
+\```
+${deployedURL}
+\```
+
 ## Credits
 
 ${collaboratorName}: ${collaboratorGitHubURL}
