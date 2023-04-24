@@ -1,10 +1,10 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
 // require my template file
 const generateTemplate = require("./template");
 
-// TODO: Create an array of questions for user input
+// Create an array of questions for user input
 const questions = [
   {
     type: "input",
@@ -117,14 +117,14 @@ const questions = [
   },
 ];
 
-// TODO: Create a function to write README file
+// Create a function to write README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) =>
     err ? console.error(err) : console.log("Success!")
   );
 }
 
-// TODO: Create a function to initialize app
+// Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then((data) => {
     const filledTemplate = generateTemplate(data);
